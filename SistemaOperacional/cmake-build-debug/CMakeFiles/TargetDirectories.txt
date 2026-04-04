@@ -1,3 +1,0 @@
-/Users/rlresende/SistemaOperacional/cmake-build-debug/CMakeFiles/SistemaOperacional.dir
-/Users/rlresende/SistemaOperacional/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/rlresende/SistemaOperacional/cmake-build-debug/CMakeFiles/rebuild_cache.dir
