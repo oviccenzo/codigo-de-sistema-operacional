@@ -2,7 +2,7 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-/* Essa função é chamada quando o módulo é carregado. */
+/* Essa funÃ§Ã£o Ã© chamada quando o mÃ³dulo Ã© carregado. */
 int simple_init(void)
 {
     printk(KERN_INFO "Loading Module\n");
@@ -10,12 +10,12 @@ int simple_init(void)
     return 0;
 }
 
-/* Essa função é chamada quando o módulo é removido. */
+/* Essa funÃ§Ã£o Ã© chamada quando o mÃ³dulo Ã© removido. */
 void simple_exit(void) {
 	printk(KERN_INFO "Removing Module\n");
 }
 
-/* Macros para o registro dos pontos de entrada e saída do módulo. */
+/* Macros para o registro dos pontos de entrada e saÃ­da do mÃ³dulo. */
 module_init( simple_init );
 module_exit( simple_exit );
 
